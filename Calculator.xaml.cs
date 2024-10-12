@@ -27,21 +27,53 @@ namespace class_work_wpf
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (number1.Text == "")
+            {
+                number1.Text = "0";
+            }
+            if (number2.Text == "")
+            {
+                number2.Text = "0";
+            }
             answer.Text = (Convert.ToDouble(number1.Text) + Convert.ToDouble(number2.Text)).ToString();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            if (number1.Text == "")
+            {
+                number1.Text = "0";
+            }
+            if (number2.Text == "")
+            {
+                number2.Text = "0";
+            }
             answer.Text = (Convert.ToDouble(number1.Text) - Convert.ToDouble(number2.Text)).ToString();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            if (number1.Text == "")
+            {
+                number1.Text = "0";
+            }
+            if (number2.Text == "")
+            {
+                number2.Text = "0";
+            }
             answer.Text = (Convert.ToDouble(number1.Text) * Convert.ToDouble(number2.Text)).ToString();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
+            if (number1.Text == "")
+            {
+                number1.Text = "0";
+            }
+            if (number2.Text == "")
+            {
+                number2.Text = "0";
+            }
             answer.Text = (Convert.ToDouble(number1.Text) / Convert.ToDouble(number2.Text)).ToString();
         }
     }
